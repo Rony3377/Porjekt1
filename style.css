@@ -1,0 +1,204 @@
+/* ganz hinten */
+html {
+  background-image: url(https://thumbs.dreamstime.com/b/les-pyramides-de-l-egypte-dans-le-d%C3%A9sert-panorama-144604371.jpg);
+  background-repeat: space;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100vh;
+}
+/*****body*****/
+body {
+  background-color: rgba(255, 255, 255, 0.69);
+}
+/*****header*****/
+
+.header-box1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: darkkhaki solid 1px;
+}
+.header-box1 .hd1 {
+  border: wheat solid 0px;
+  align-items: flex-start;
+  padding-top: 0px;
+  background-color: darkgrey;
+  max-width: 300px;
+  max-height: 150px;
+}
+.header-box1 .hd1 h3 {
+  text-decoration: underline;
+  color: black;
+}
+.header-box1 img {
+  width: 35px;
+}
+.header-box1 .hd3 img {
+  box-shadow: 1px 1px 1px rgb(59, 58, 58);
+  background-color: darkgray;
+}
+.header-box1 .hd2 {
+  border: dimgray solid 0px;
+  background-color: darkgrey;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+}
+.header-box1 .hd2 img {
+  max-width: 15px;
+  max-height: 15px;
+}
+.header-box1 .hd2 input[type="text"] {
+  border: none;
+  margin-right: 10px;
+}
+/*****main*****/
+
+.main-box1 {
+  display: flex;
+  flex-wrap: wrap;
+  border: slateblue solid 2px;
+  background-color: steelblue;
+  justify-content: space-around;
+  height: 70px;
+  align-items: center;
+  margin: 0px;
+}
+
+.main-box2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: turquoise solid 2px;
+  background: darkgray
+    url(https://th.bing.com/th/id/R.c9f9b5a52766e688593287f18ca3ccb8?rik=kNP3n72%2fVd7uPw&riu=http%3a%2f%2fwww.breakingbelizenews.com%2fwp-content%2fuploads%2f2016%2f03%2fimport-and-export.jpg&ehk=ybKnL5KP8NbpCW1PjVJ9dLi3om%2bFjKlMg61Rjd%2bpN4c%3d&risl=&pid=ImgRaw&r=0);
+  background-size: 50%;
+  height: 390px;
+  padding: 4px;
+  margin: 2px;
+}
+.main-box2 .m1,
+.m2,
+.m3,
+.m4,
+.m5,
+.m6,
+.m7 {
+  border: turquoise solid 1px;
+  border-radius: 20px;
+  height: 20px;
+  background-color: turquoise;
+}
+.h1 {
+  border: wheat solid 0px;
+  /*align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-right: 650px;*/
+  margin-right: 20%;
+  height: 50px;
+}
+main .h2 {
+  color: royalblue;
+}
+u {
+  color: royalblue;
+}
+h3 {
+  color: limegreen;
+}
+.main-box4 h2 {
+  color: royalblue;
+}
+.feld1 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.main-box3 {
+  border: mistyrose solid 1px;
+  grid-column-start: 1;
+  grid-row: 1 / span 5;
+}
+.main-box4 {
+  border: mistyrose solid 1px;
+}
+.main-box3 div .input {
+  border: lawngreen solid 1px;
+  background-color: lawngreen;
+  height: 75px;
+  width: 200px;
+  border-radius: 20px;
+}
+.main-box5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.inputm1 {
+  background-color: mediumaquamarine;
+  border: mediumturquoise solid 1px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(t.png);
+  width: 125px;
+  height: 40px;
+  background-position: center left; /* Bild links mittig */
+  padding-left: 40px; /*Innerer Abstand von links */
+  line-height: 50px; /* Zeilenhöhe */
+  background-size: 35px;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.inputm2 {
+  background-color: rgb(60, 37, 212);
+  border: mediumturquoise solid 1px;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(f.png);
+  padding: 4px;
+  width: 125px;
+  height: 40px;
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: center left; /* Bild links mittig */
+  padding-left: 40px; /*Innerer Abstand von links */
+  line-height: 50px; /* Zeilenhöhe */
+}
+.mb1,
+.mb2 {
+  color: rgb(57, 58, 168);
+}
+/*****footer****/
+.feld2 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  border: turquoise solid 2px;
+  background-color: cornflowerblue;
+  height: 500px;
+  color: cornsilk;
+}
+.f1,
+.f2,
+.f4 {
+  border: cornflowerblue solid 1px;
+  width: 200px;
+}
+.f3 {
+  border: cornflowerblue solid 1px;
+  width: 100px;
+}
+.inputf4 {
+  border: lawngreen solid 1px;
+  background-color: limegreen;
+}
+.feld3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: darkslategray solid 2px;
+  background-color: dimgray;
+  color: cornsilk;
+}
